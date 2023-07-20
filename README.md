@@ -30,7 +30,7 @@ Note: This is not a custom motions modding tutorial. Please follow [this guide](
 - To use this tool properly, one should have a basic understanding of custom motions modding. Please refer to [this guide](https://chocmake.github.io/guides/mgsv-adding-player-motions/) by choc for more information about this process.
 - It is not required for file folders to be named exactly as they are in the guide. This can be used for unpacked .mtars of any name including original files, not just those provided in the motions-template from the guide mentioned above.
 - This tool works best for animations which have only one .gani as opposed to the more complex animations which may have a beginning, middle, and end .gani file for each motion respectively. Though, it will still work for this situation, but each .gani will be put into it's own motion group in the .txt file. These would still be accessible in the IH menu, but might take a while to sift through. This can be changed manually for now.
-- The motion and motionGroups are named automatically to the name of the .gani file. These can be renamed manually if desired.
+- The motion and motionGroups are named automatically to an automatic, arbitrary id such as "CGPF0001". These can be renamed manually if desired.
 
 ## Thank Yous
 
