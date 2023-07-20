@@ -1,6 +1,6 @@
 # Custom Gani Path Formatter
 
-Generates .txt files of paths for each .gani inside an unpacked .mtar in various formats to assist with building a custom motions mod for MGSV:TPP.
+Generates .txt files of paths for each .gani inside an unpacked .mtar in various formats to assist with building a custom motions mod for MGSV:TPP. To be used in conjuction with [this guide](https://chocmake.github.io/guides/mgsv-adding-player-motions/) or for your own custom motions mod once you know the process.
 
 ## Installation
 
@@ -12,12 +12,14 @@ This is a simple Python script compiled into an .exe using PyInstaller. The scri
 
 ### Visual Aid
 
-| File                            | Destination             |
-|---------------------------------|-------------------------|
-| gani_lines.txt                  | mtar_dictionary.txt     |
-| gani_lines_xml.txt              | custom_motions.mtar.xml |
-| gani_lines_lua_motions.txt      | IHDev_AddMotions.lua    |
-| gani_lines_lua_motiongroups.txt | IHDev_AddMotions.lua    |
+| Generated File                  | Destination File        | Post-execution Action                                                                                    |
+|---------------------------------|-------------------------|----------------------------------------------------------------------------------------------------------|
+| gani_lines.txt                  | mtar_dictionary.txt     | Manually copy/paste from generated file to end of destination file without overwriting existing content. |
+| gani_lines_xml.txt              | custom_motions.mtar.xml | Manually copy/paste from generated file to "Entries" section of destination file.                        |
+| gani_lines_lua_motions.txt      | IHDev_AddMotions.lua    | Manually copy/paste from generated file to "this.motions" section destination file.                      |
+| gani_lines_lua_motiongroups.txt | IHDev_AddMotions.lua    | Manually copy/paste from generated file to "this.motionGroups" section of destination file.              |
+
+Note: This is not a custom motions modding tutorial. If at any point you are unsure follow [this guide](https://chocmake.github.io/guides/mgsv-adding-player-motions/).
 
 ## Considerations
 
