@@ -34,8 +34,8 @@ If you have any suggestions on how to make this tool better or would like to add
 
 ## Thank Yous
 
-choc
-kapuragu
+- choc
+- kapuragu
 
 ## License
 
