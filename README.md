@@ -1,4 +1,4 @@
-# Custom Gani Path Formatter
+# Custom Gani Path Formatter (CGPFormatter)
 
 Assists with the creation of custom motions mods for MGSV:TPP by generating lines of code for each .gani file found in a directory tree <ins>in bulk</ins> ready to paste directly into related dictionaries and scripts.
 
