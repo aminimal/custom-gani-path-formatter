@@ -12,8 +12,8 @@ For each .gani file found, this program will output multiple lines of code. Exam
 
 | Example Output                                                       | Related File            | Related Tool                |
 |----------------------------------------------------------------------|-------------------------|-----------------------------|
-| /Assets/tpp/foldername/filename.gani                                 | mtar_dictionary.txt     | MtarTool                    |
-| <myxml> <Gani FilePath="/Assets/tpp/foldername/filename" /> </myxml> | custom_motions_mtar.xml | MtarTool                    |
+| /Assets/tpp/foldername/filename                                      | mtar_dictionary.txt     | MtarTool                    |
+| "<Gani FilePath=" "/Assets/tpp/foldername/filename" "/>"             | custom_motions_mtar.xml | MtarTool                    |
 | MOTION0000={"/Assets/tpp//foldername/filename.gani"},                | IHDev_AddMotions.lua    | Infinite Heaven (IH) module |
 
 ## Installation
